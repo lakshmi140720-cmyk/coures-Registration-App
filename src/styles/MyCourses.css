@@ -1,0 +1,71 @@
+.mycourses-container{
+
+    padding:40px;
+
+}
+
+.mycourses-container h1{
+
+    text-align:center;
+
+    color:#1e3a8a;
+
+    margin-bottom:40px;
+
+}
+
+.course-list{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:30px;
+
+}
+
+.registered-card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+}
+
+.registered-card h2{
+
+    color:#2563eb;
+
+    margin-bottom:20px;
+
+}
+
+.registered-card p{
+
+    margin:10px 0;
+
+}
+
+.registered-card button{
+
+    margin-top:20px;
+
+    width:100%;
+
+    padding:12px;
+
+    background:red;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
